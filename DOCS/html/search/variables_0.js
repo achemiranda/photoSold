@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['_24_5fserver_0',['$_SERVER',['../d4/d48/add_photo_8php.html#ae4cb516593d277dd3ad071d6955da24e',1,'$_SERVER():&#160;addPhoto.php'],['../d3/d1a/login_8php.html#ae4cb516593d277dd3ad071d6955da24e',1,'$_SERVER():&#160;login.php'],['../d4/dbb/register_8php.html#ae4cb516593d277dd3ad071d6955da24e',1,'$_SERVER():&#160;register.php']]],
+  ['_24_5fsession_1',['$_SESSION',['../d6/d3d/catalogo_8php.html#a641b5131313e16ffaf0c2a2c063148ab',1,'catalogo.php']]],
+  ['_24admin_2',['$admin',['../d6/d3d/catalogo_8php.html#ad3b3c64b25fbbb6aec24407e4333aa71',1,'catalogo.php']]],
+  ['_24campoborrado_3',['$campoBorrado',['../d0/d0c/borra_photo_8php.html#a755b1e5ea8d5d3bf17ba1ad7f14a4ca1',1,'borraPhoto.php']]],
+  ['_24catalogo_4',['$catalogo',['../d6/d3d/catalogo_8php.html#a4d66b09b5c5524ecae1c3942b3401b66',1,'catalogo.php']]],
+  ['_24conexion_5',['$conexion',['../d0/d0c/borra_photo_8php.html#a881924afaecbe8ee5c0d26174a1e8081',1,'$conexion():&#160;borraPhoto.php'],['../d6/d3d/catalogo_8php.html#a881924afaecbe8ee5c0d26174a1e8081',1,'$conexion():&#160;catalogo.php']]],
+  ['_24config_6',['$config',['../d0/d0c/borra_photo_8php.html#a49c7011be9c979d9174c52a8b83e5d8e',1,'$config():&#160;borraPhoto.php'],['../d7/d5e/instalar_8php.html#a49c7011be9c979d9174c52a8b83e5d8e',1,'$config():&#160;instalar.php'],['../d6/d3d/catalogo_8php.html#a49c7011be9c979d9174c52a8b83e5d8e',1,'$config():&#160;catalogo.php']]],
+  ['_24consultaradmin_7',['$consultarAdmin',['../d6/d3d/catalogo_8php.html#a88e3cc80e8cca0e16314e1c3d7ae2e25',1,'catalogo.php']]],
+  ['_24consultasql_8',['$consultaSQL',['../d6/d3d/catalogo_8php.html#ac28a12f1b3212ca1f5935ae0295ffa19',1,'catalogo.php']]],
+  ['_24dni_9',['$dni',['../d6/d3d/catalogo_8php.html#aee9b50bd27322da677c326223fdbf8ac',1,'catalogo.php']]],
+  ['_24id_5ffotografia_10',['$id_fotografia',['../d0/d0c/borra_photo_8php.html#a24c5f867682bebda5833e08d0981d81c',1,'borraPhoto.php']]],
+  ['_24imagenborrada_11',['$imagenBorrada',['../d0/d0c/borra_photo_8php.html#adc66e34315cffb6575866f5f4ce34760',1,'borraPhoto.php']]],
+  ['_24imagenborrar_12',['$imagenBorrar',['../d0/d0c/borra_photo_8php.html#a334a06f58864e7084b85b332c65f78db',1,'borraPhoto.php']]],
+  ['_24resultado_13',['$resultado',['../d0/d0c/borra_photo_8php.html#a06face0ef35c41554d8f4fe115363f58',1,'borraPhoto.php']]],
+  ['_24sql_14',['$sql',['../d7/d5e/instalar_8php.html#a047170d6020a882807665812a27e2525',1,'instalar.php']]],
+  ['_24usuario_15',['$usuario',['../d6/d3d/catalogo_8php.html#a559c8003f481610caf373b85cc607fb6',1,'catalogo.php']]]
+];
