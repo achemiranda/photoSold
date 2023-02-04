@@ -153,7 +153,7 @@ include "../PUBLIC/PARTS/header.php";
     </div>
     <?php
     //Si el valor de admin no es ni 0 ó 1 entra a la página como no registrado.
-    if (!isset($_SESSION['admin'])) {
+    if ($admin !=1 && $admin !=0) {
         echo "<h1 class='m-1 p-1 text-primary text-center'>-- Visitante no Registrado --</h1>";
     ?>
         <div class="container-fluid mt-5">
