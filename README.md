@@ -62,6 +62,9 @@ El usuario sin cuenta o que no use su login solo verá las páginas como visitan
 
 3. Para **eliminar su usuario** tendría que ir al botón 'dar de baja' para los usarios, una vez dentro se verá un formulario con datos a rellenar de su usuario y un botón que pone 'Eliminar', si le da a ese botón y los datos coinciden con los del perfil, se podrá eliminar dicho perfil y la web lo volverá a llevar la página de Inicio.
 
+
+![Pagina principal](./PUBLIC/images/imgReadme/readmeImgPhotoSoldCatalogo.jpg)
+
 ## Administrador
 1. El administrador podrá ver todas las fotografías, borrarlas,añadir nuevas, y ver y eliminar usuarios(más adelante, aún no está implementado).
 
