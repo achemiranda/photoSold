@@ -195,7 +195,7 @@ include "../PUBLIC/PARTS/header.php";
                                 }
                             }
                         }
-                    }
+
                         ?>
                         </tbody>
                     </table>
@@ -205,4 +205,8 @@ include "../PUBLIC/PARTS/header.php";
             </div>
         </div>
 
-        <?php include "../PUBLIC/PARTS/footer.php"; ?>
+        <?php
+        }
+        include "../PUBLIC/PARTS/footer.php";
+        
+        ?>
