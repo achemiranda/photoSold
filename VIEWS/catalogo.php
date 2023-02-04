@@ -196,8 +196,10 @@ if (isset($_SESSION['dni'])){
                                 }
                             }
                         }
-                    }}}
-
+                    }
+                }
+            }
+        }
                         ?>
                     </tbody>
                 </table>
@@ -206,9 +208,5 @@ if (isset($_SESSION['dni'])){
             </div>
         </div>
     </div>
-<?php
 
- }
-
-?>
 <?php include "../PUBLIC/PARTS/footer.php"; ?>
