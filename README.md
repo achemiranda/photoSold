@@ -1,4 +1,4 @@
-# photoSold
+# photoSold.
 
 # Breve introducción al proyecto de la APP
 Este es un primer proyecto usado como actividad del ciclo superior de desarrollo web,para familiarizarse con las tecnologías que se usan en el despliegue de aplicaciones.
@@ -7,10 +7,10 @@ No es una página web profesional, sino un ejercicio de prácticas del alumnado.
 
 Más adelante irá sufriendo cambios a medida que se vayan corrigiendo errores e implementando nuevas herramientas o añadiendo funcionalidades al proyecto.
 
-# ¿Qué es photoSold?
+# ¿Qué es photoSold.?
 Es un proyecyo web destinado a la compra de imágenes y fotografías. En el podremos editar,añadir, borrar y ver dichas imágenes dependiendo de si somos el administrador de la web, un usuario o un visitante (CRUD). 
 
-# Página principal
+# Página principal (HOME)
 
 ![Pagina principal](./PUBLIC/images/imgReadme/readmeImgPhotoSOld.jpg)
 
@@ -51,7 +51,7 @@ php -S localhost:8000
 ```
 http://localhost:8000
 ```
-# Uso de la aplicación:
+# Uso de la aplicación photoSold:
 ## Usuario sin cuenta
 El usuario sin cuenta o que no use su login solo verá las páginas como visitante, si quiere poder comprar ,necesitará tener una cuenta y entrar como usuario. 
 
@@ -72,10 +72,10 @@ El usuario sin cuenta o que no use su login solo verá las páginas como visitan
 
 4. Para **añadir fotos** tendremos que ir al menú, al botón catálogo y ahí pulsar el botón de 'Añadir foto', una vez dentro se verá una formulario para rellenar los datos la imagen a añadir y abajo un botón que pone 'Añadir', simplemente haciendo click a ese botón ya se está añaden los datos de la foto la cual hemos luego de añadir a la carpeta 'images',
 en el campo del formulario, en la casilla imagen introducimos la ruta hacia la carpeta 
-**../PUBLIC/images/ + nombre imagen.jpg** .
+**../PUBLIC/images/ + 'nombre imagen.jpg'**.
 
-# Autor
-* Ache Miranda Abadín
+# Autor:
+Ache Miranda Abadín
 # Tecnologías
 Para el proyecto, se ha usado:
 

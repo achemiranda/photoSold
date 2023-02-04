@@ -139,9 +139,9 @@ try {
     } else {
         echo "<h1 class='m-1 p-1 text-primary text-center'>-- Visitante no Registrado --</h1>";
     ?>
-        <div class="container-fluid">
-            <div class="row justify-content-center align-items-center minh-100">
-                <div class="col-lg-12 p-5">
+        <div class="container-fluid mt-5">
+            <div class="row justify-content-center align-items-center minh-100 mt-5">
+                <div class="col-lg-12 p-5  mt-5">
                     <h1 class="text-warning">PhotoSOLD.</h1>
                     <table class="table table-striped table-hover table-dark " style="border:solid 2px blue;">
                         <thead>
