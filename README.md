@@ -1,4 +1,4 @@
-# photoSold.
+#..................................>>>photoSold.<<<....................................
 
 # Breve introducción al proyecto de la APP
 Este es un primer proyecto usado como actividad del ciclo superior de desarrollo web,para familiarizarse con las tecnologías que se usan en el despliegue de aplicaciones.
@@ -79,17 +79,17 @@ Ache Miranda Abadín
 # Tecnologías
 Para el proyecto, se ha usado:
 
-* Visual Studio Code
-* HTML5
-* CSS3
-* Bootstrap v4
-* PHP
-* Doxygen
-* MarkDown
+* Visual Studio Code.
+* HTML5.
+* CSS3.
+* Bootstrap v4.
+* PHP.
+* Doxygen.
+* MarkDown.
 
 Se ha desplegado con:
 
-* Heroku
+* Heroku.
 
 # Documentación
 [Documentacion con Doxygen]() 
