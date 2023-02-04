@@ -70,10 +70,8 @@ include "../PUBLIC/PARTS/header.php";
                     <?php
                     //Bucle para mostrar todos los campos de la tabla fotografia en una tabla
                     if ($catalogo && $consultaSQL->rowCount() > 0) {
-
                         foreach ($catalogo as $datoFila) {
                             if ($datoFila['imagen'] != 0) {
-                                
                     ?>
                                 <tr class="catalogo text-center">
                                     <td class="p-2"><?php echo $datoFila["nombre"]; ?></td>
@@ -103,7 +101,7 @@ include "../PUBLIC/PARTS/header.php";
 
 <?php
                         //Si el valor de admin = 0 entra a la pagina en modo Usuario.
-                     if ($admin == 0) {
+                    } else if ($admin == 0) {
 
                         echo "<h1 class='m-1 p-1 text-success text-center'>-- Usuario Registrado --</h1>";
 ?>
@@ -209,8 +207,7 @@ include "../PUBLIC/PARTS/header.php";
     </div>
 <?php
 
-            }
-        }
+                    }
 
 ?>
 <?php include "../PUBLIC/PARTS/footer.php"; ?>
