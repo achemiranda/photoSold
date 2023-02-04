@@ -34,10 +34,8 @@ try {
         if ($admin == 1) {
 
             echo "<h3 class='m-1 p-1 text-warning text-center'>-- Modo Admin --</h3>";
-            
         }
     }
-
 } catch (PDOException $error) {
     $resultado['error'] = true;
     $resultado['mensaje'] = $error->getMessage();
@@ -96,11 +94,13 @@ include "../PUBLIC/PARTS/header.php";
     </div>
 </div>
 
+
 <?php
                         //Si el valor de admin = 0 entra a la pagina en modo Usuario.
                     } else if ($admin == 0) {
                         echo "<h1 class='m-1 p-1 text-success text-center'>-- Usuario Registrado --</h1>";
 ?>
+
     <div class="container-fluid">
         <div class="row justify-content-center align-items-center minh-100">
             <div class="col-lg-12 p-5">
