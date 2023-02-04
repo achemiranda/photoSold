@@ -83,8 +83,7 @@ include "../PUBLIC/PARTS/header.php";
                         <?php
                                     }
                                 }
-                            }
-                        }
+                            }                       
                         ?>
                         </tbody>
                     </table>
@@ -97,6 +96,7 @@ include "../PUBLIC/PARTS/header.php";
 
 
 <?php
+            }
             //Si el valor de admin = 0 entra a la pagina en modo Usuario.
             if ($admin == 0) {
 
