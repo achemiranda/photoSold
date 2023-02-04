@@ -48,8 +48,6 @@ include "../PUBLIC/PARTS/header.php";
                 //Si el valor de admin = 1 entra a la pagina en modo admin.
                 if ($admin == 1) {
                     echo "<h3 class='m-1 p-1 text-warning text-center'>-- Modo Admin --</h3>";
-
-
             ?>
                     <h1 class="text-warning">PhotoSOLD.</h1>
                     <table class="table table-striped table-hover table-dark " style="border:solid 2px yellow;">
@@ -82,13 +80,12 @@ include "../PUBLIC/PARTS/header.php";
                                             <td class="p-2"><?php echo $datoFila["updated_at"]; ?></td>
                                             <td><a href="<?php echo '../ACCIONES/borraPhoto.php?id_fotografia=' . $datoFila["id_fotografia"] ?>" class="btn btn-secondary btn-light fw-bold border-white bg-warning"><i class="fa fa-trash"></i>Borrar</a></td>
                                         </tr>
-                    <?php
+                        <?php
                                     }
                                 }
                             }
                         }
-                    }
-                    ?>
+                        ?>
                         </tbody>
                     </table>
                     <a href="../index.php" class="btn btn-lg btn-light fw-bold border-white bg-warning"><i class="fas fa-home"></i>Ir a inicio</a>
@@ -100,10 +97,11 @@ include "../PUBLIC/PARTS/header.php";
 
 
 <?php
-//Si el valor de admin = 0 entra a la pagina en modo Usuario.
-if ($admin == 0) {
+            }
+            //Si el valor de admin = 0 entra a la pagina en modo Usuario.
+            if ($admin == 0) {
 
-    echo "<h1 class='m-1 p-1 text-success text-center'>-- Usuario Registrado --</h1>";
+                echo "<h1 class='m-1 p-1 text-success text-center'>-- Usuario Registrado --</h1>";
 ?>
 
     <div class="container-fluid">
@@ -140,13 +138,13 @@ if ($admin == 0) {
                                         <td class="p-2"><?php echo $datoFila["updated_at"]; ?></td>
                                         <td><a href="<?php echo '../ACCIONES/borraPhoto.php?nombre=' . $datoFila['nombre'] ?>" class="btn btn-secondary btn-light fw-bold border-white bg-warning"><i class="fas fa-coins"></i>Comprar</a></td>
                                     </tr>
-                        <?php
+                    <?php
                                 }
                             }
                         }
                     }
 
-                        ?>
+                    ?>
                     </tbody>
                 </table>
                 <a href="../index.php" class="btn btn-lg btn-light fw-bold border-white bg-warning"><i class="fas fa-home"></i>Ir a inicio</a>
@@ -193,12 +191,12 @@ if ($admin == 0) {
                                             <td class="p-2"><?php echo $datoFila["created_at"]; ?></td>
                                             <td class="p-2"><?php echo $datoFila["updated_at"]; ?></td>
                                         </tr>
-                    <?php
+                        <?php
                                     }
                                 }
                             }
                         }
-                    ?>
+                        ?>
                         </tbody>
                     </table>
                     <a href="../index.php" class="btn btn-lg btn-light fw-bold border-white bg-primary"><i class="fas fa-home"></i>Ir a inicio</a>
