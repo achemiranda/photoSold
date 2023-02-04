@@ -16,9 +16,9 @@ session_start();
                 </div>
                 <h2 class="card-text text-danger mb-5">Elígelas desde nuestro catálogo.</h2>
             </div>
-            <h2 class="text-center mt-5">
-              <a href="./VIEWS/catalogo.php" class="btn btn-lg btn-light fw-bold border-white bg-warning">Ir a Catálogo</a>
-          </h2>
+        <h2 class="text-center mt-5">
+        <a href="./VIEWS/catalogo.php" class="btn btn-lg btn-light fw-bold border-white bg-warning">Ir a Catálogo</a>
+        </h2>
         </div>
     </div>
 
