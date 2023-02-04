@@ -98,7 +98,7 @@ include "../PUBLIC/PARTS/header.php";
 
 <?php
             //Si el valor de admin = 0 entra a la pagina en modo Usuario.
-            if ($admin == 0) {
+        } elseif ($admin == 0) {
 
                 echo "<h1 class='m-1 p-1 text-success text-center'>-- Usuario Registrado --</h1>";
 ?>
@@ -195,7 +195,6 @@ include "../PUBLIC/PARTS/header.php";
                                 }
                             }
                         }
-                    }
                         ?>
                         </tbody>
                     </table>
