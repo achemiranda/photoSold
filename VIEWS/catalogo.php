@@ -182,7 +182,7 @@ include "../PUBLIC/PARTS/header.php";
                                         <td class="p-2"><?php echo $datoFila["nombre"]; ?></td>
                                         <td class="p-2"><?php echo $datoFila["precio"]; ?></td>
                                         <td class="p-2"><?php echo $datoFila["tamanio"]; ?></td>
-                                        <td class="p-2"><img style="width: 5em;" src="<?php echo substr($datoFila["imagen"], 3); ?>"></td>
+                                        <td class="p-2"><img style="width: 5em;" src="<?php echo $datoFila["imagen"]; ?>"></td>
                                         <td class="p-2"><?php echo $datoFila["creador"]; ?></td>
                                         <td class="p-2"><?php echo $datoFila["created_at"]; ?></td>
                                         <td class="p-2"><?php echo $datoFila["updated_at"]; ?></td>
