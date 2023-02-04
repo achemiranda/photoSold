@@ -49,7 +49,7 @@ include "../PUBLIC/PARTS/header.php";
                 if ($admin == 1) {
                     echo "<h3 class='m-1 p-1 text-warning text-center'>-- Modo Admin --</h3>";
                 }
-            }
+            
 
             ?>
             <h1 class="text-warning">PhotoSOLD.</h1>
