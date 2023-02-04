@@ -45,11 +45,13 @@ include "../PUBLIC/PARTS/header.php";
 
             <?php
 if (isset($_SESSION['dni'])){
-    //Si el valor de admin = 1 entra a la pagina en modo admin.
+             //Si el valor de admin = 1 entra a la pagina en modo admin.
     if ($admin == 1) {
         echo "<h3 class='m-1 p-1 text-warning text-center'>-- Modo Admin --</h3>";
 
     }
+
+}   
             ?>
             <h1 class="text-warning">PhotoSOLD.</h1>
             <table class="table table-striped table-hover table-dark " style="border:solid 2px yellow;">
@@ -83,7 +85,7 @@ if (isset($_SESSION['dni'])){
                                     <td><a href="<?php echo '../ACCIONES/borraPhoto.php?id_fotografia=' . $datoFila["id_fotografia"] ?>" class="btn btn-secondary btn-light fw-bold border-white bg-warning"><i class="fa fa-trash"></i>Borrar</a></td>
                                 </tr>
                         <?php
-}
+
                             }
                         }
 
