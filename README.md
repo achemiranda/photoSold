@@ -12,7 +12,7 @@ Es un proyecyo web destinado a la compra de imágenes y fotografías. En el podr
 
 # Página principal
 
-![Pagina principal](./images/imgReadme/readmeImgPhotoSOld.jpg)
+![Pagina principal](../images/imgReadme/readmeImgPhotoSOld.jpg)
 
 # Instalación de la App
 1. Primero, debemos clonar el repositorio; desde una terminal servirá:
