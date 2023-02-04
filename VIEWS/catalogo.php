@@ -84,7 +84,6 @@ include "../PUBLIC/PARTS/header.php";
                                     }
                                 }
                             }
-                        }
                         ?>
                         </tbody>
                     </table>
@@ -196,6 +195,7 @@ include "../PUBLIC/PARTS/header.php";
                                 }
                             }
                         }
+                    }
                         ?>
                         </tbody>
                     </table>
