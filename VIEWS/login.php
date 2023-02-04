@@ -7,7 +7,7 @@ if (isset($_POST['login'])) {
 		//realizamos la peticion de conexion pdo y se almacena en una variable
 		$dsn      = 'mysql:host=' . $config['db']['host'] . ';dbname=' . $config['db']['name'];
 		$conexion = new PDO($dsn, $config['db']['user'], $config['db']['pass'], $config['db']['options']);
-//Escogemos del formulario los datos que usaremos para el login
+		//Escogemos del formulario los datos que usaremos para el login
 		$dni      = trim(strip_tags($_POST['dni']));
 		$password = trim(strip_tags($_POST['password']));
 
@@ -15,7 +15,7 @@ if (isset($_POST['login'])) {
 
 			echo "<h3 style='color:red;text-align:center;'>Por favor, rellene los campos para el login.<h3>";
 		} else {
-//Se prepara la peticion de la consulta donde dni y password deben coincidir
+			//Se prepara la peticion de la consulta donde dni y password deben coincidir
 			$consultaSQL = $conexion->prepare("SELECT * FROM usuario WHERE dni=:dni AND password=:password");
 			$consultaSQL->bindParam("dni", $dni, PDO::PARAM_STR);
 			$consultaSQL->bindParam("password", $password, PDO::PARAM_STR);
@@ -27,7 +27,7 @@ if (isset($_POST['login'])) {
 				if ($login["password"] == $password) {
 
 					$_SESSION["dni"] = $login["dni"];
-//Si coinciden redirecciona al index
+					//Si coinciden redirecciona al index
 					header("Location:../index.php");
 				} else {
 					echo "<h3 style='color:red;text-align:center;'>La contraseña no es correcto.<h3>";

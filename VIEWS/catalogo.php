@@ -29,12 +29,6 @@ try {
         //Conforme al dni usamos variable para determinar si es administrador o no
         $admin = $consultarAdmin['admin'];
         $_SESSION['admin'] = $admin;
-
-        //Si el valor de admin = 1 entra a la pagina en modo admin.
-        if ($admin == 1) {
-
-            echo "<h3 class='m-1 p-1 text-warning text-center'>-- Modo Admin --</h3>";
-        }
     }
 } catch (PDOException $error) {
     $resultado['error'] = true;
@@ -48,6 +42,16 @@ include "../PUBLIC/PARTS/header.php";
 <div class="container-fluid">
     <div class="row justify-content-center align-items-center minh-100 mt-5">
         <div class="col-lg-12 p-5 mt-5">
+
+            <?php
+            if (isset($_SESSION['dni'])) {
+                //Si el valor de admin = 1 entra a la pagina en modo admin.
+                if ($admin == 1) {
+                    echo "<h3 class='m-1 p-1 text-warning text-center'>-- Modo Admin --</h3>";
+                }
+            }
+
+            ?>
             <h1 class="text-warning">PhotoSOLD.</h1>
             <table class="table table-striped table-hover table-dark " style="border:solid 2px yellow;">
                 <thead>
@@ -97,7 +101,8 @@ include "../PUBLIC/PARTS/header.php";
 
 <?php
                         //Si el valor de admin = 0 entra a la pagina en modo Usuario.
-                    } else if ($admin == 0) {
+                     if ($admin == 0) {
+
                         echo "<h1 class='m-1 p-1 text-success text-center'>-- Usuario Registrado --</h1>";
 ?>
 
@@ -187,13 +192,12 @@ include "../PUBLIC/PARTS/header.php";
                                         <td class="p-2"><?php echo $datoFila["created_at"]; ?></td>
                                         <td class="p-2"><?php echo $datoFila["updated_at"]; ?></td>
                                     </tr>
-                    <?php
+                        <?php
                                 }
                             }
                         }
-                    }
 
-                    ?>
+                        ?>
                     </tbody>
                 </table>
                 <a href="../index.php" class="btn btn-lg btn-light fw-bold border-white bg-primary"><i class="fas fa-home"></i>Ir a inicio</a>
@@ -201,5 +205,10 @@ include "../PUBLIC/PARTS/header.php";
             </div>
         </div>
     </div>
+<?php
 
-    <?php include "../PUBLIC/PARTS/footer.php"; ?>
+            }
+        }
+
+?>
+<?php include "../PUBLIC/PARTS/footer.php"; ?>
