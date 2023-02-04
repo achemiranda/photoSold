@@ -191,12 +191,12 @@ include "../PUBLIC/PARTS/header.php";
                                             <td class="p-2"><?php echo $datoFila["created_at"]; ?></td>
                                             <td class="p-2"><?php echo $datoFila["updated_at"]; ?></td>
                                         </tr>
-                                        <?php
-
-
-
-
-                                        ?>
+                        <?php
+                                    }
+                                }
+                            }
+                        }
+                        ?>
                         </tbody>
                     </table>
                     <a href="../index.php" class="btn btn-lg btn-light fw-bold border-white bg-primary"><i class="fas fa-home"></i>Ir a inicio</a>
@@ -204,9 +204,4 @@ include "../PUBLIC/PARTS/header.php";
                 </div>
             </div>
         </div>
-<?php }
-                                }
-                            }
-                        } ?>
-
-<?php include "../PUBLIC/PARTS/footer.php";  ?>
+        <?php include "../PUBLIC/PARTS/footer.php";  ?>
