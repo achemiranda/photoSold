@@ -99,7 +99,7 @@ include "../PUBLIC/PARTS/header.php";
             //Si el valor de admin = 0 entra a la pagina en modo Usuario.
             if ($admin == 0) {
 
-                echo "<h1 class='m-1 p-1 text-success text-center'>-- Usuario Registrado --</h1>";
+                echo "<h3 class='m-1 p-1 text-success text-center'>-- Usuario Registrado --</h3>";
 ?>
 
     <div class="container-fluid">
@@ -154,7 +154,7 @@ include "../PUBLIC/PARTS/header.php";
     <?php
     //Si el valor de admin no es ni 0 ó 1 entra a la página como no registrado.
     if ($admin !=1 && $admin !=0) {
-        echo "<h1 class='m-1 p-1 text-primary text-center'>-- Visitante no Registrado --</h1>";
+        echo "<h3 class='m-1 p-1 text-primary text-center'>-- Visitante no Registrado --</h3>";
     ?>
         <div class="container-fluid mt-5">
             <div class="row justify-content-center align-items-center minh-100 mt-5">
