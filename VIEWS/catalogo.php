@@ -201,9 +201,8 @@ include "../PUBLIC/PARTS/header.php";
                     </table>
                     <a href="../index.php" class="btn btn-lg btn-light fw-bold border-white bg-primary"><i class="fas fa-home"></i>Ir a inicio</a>
                     <a href="../ACCIONES/finSession.php" class="btn btn-lg btn-light fw-bold border-white bg-danger"><i class="fas fa-door-closed"></i>Cerrar sesion</a>
-                
-                    <?php include "../PUBLIC/PARTS/footer.php";  ?>
                 </div>
             </div>
         </div>
 
+        <?php include "../PUBLIC/PARTS/footer.php";  ?>
