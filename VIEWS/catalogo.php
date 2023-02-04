@@ -48,10 +48,11 @@ include "../PUBLIC/PARTS/header.php";
                 //Si el valor de admin = 1 entra a la pagina en modo admin.
                 if ($admin == 1) {
                     echo "<h3 class='m-1 p-1 text-warning text-center'>-- Modo Admin --</h3>";
-                }
+               
             
 
             ?>
+             }
             <h1 class="text-warning">PhotoSOLD.</h1>
             <table class="table table-striped table-hover table-dark " style="border:solid 2px yellow;">
                 <thead>
