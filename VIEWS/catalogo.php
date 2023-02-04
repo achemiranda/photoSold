@@ -146,7 +146,7 @@ include "../PUBLIC/PARTS/header.php";
                     ?>
                     </tbody>
                 </table>
-                <a href="../index.php" class="btn btn-lg btn-light fw-bold border-white bg-warning"><i class="fas fa-home"></i>Ir a inicio</a>
+                <a href="../index.php" class="btn btn-lg btn-light fw-bold border-white bg-success"><i class="fas fa-home"></i>Ir a inicio</a>
                 <a href="../ACCIONES/addPhoto.php" class="btn btn-lg btn-light fw-bold border-white bg-warning"><i class="fas fa-skull"></i>Dar de baja</a>
                 <a href="../ACCIONES/finSession.php" class="btn btn-lg btn-light fw-bold border-white bg-danger"><i class="fas fa-door-closed"></i>Cerrar sesion</a>
             </div>
