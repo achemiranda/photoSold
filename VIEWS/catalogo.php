@@ -175,8 +175,6 @@ include "../PUBLIC/PARTS/header.php";
                                 <th scope="col">Creador</th>
                                 <th scope="col">Creada</th>
                                 <th scope="col">Actualizada</th>
-                                <th></th>
-                                );
                             </tr>
                         </thead>
                         <tbody>
@@ -200,7 +198,6 @@ include "../PUBLIC/PARTS/header.php";
                                         }
                                     }
                                 }
-                            }
             ?>
                         </tbody>
                     </table>
