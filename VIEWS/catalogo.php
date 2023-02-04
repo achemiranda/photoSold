@@ -80,11 +80,11 @@ include "../PUBLIC/PARTS/header.php";
                                             <td class="p-2"><?php echo $datoFila["updated_at"]; ?></td>
                                             <td><a href="<?php echo '../ACCIONES/borraPhoto.php?id_fotografia=' . $datoFila["id_fotografia"] ?>" class="btn btn-secondary btn-light fw-bold border-white bg-warning"><i class="fa fa-trash"></i>Borrar</a></td>
                                         </tr>
-                        <?php
+                            <?php
                                     }
                                 }
                             }
-                        ?>
+                            ?>
                         </tbody>
                     </table>
                     <a href="../index.php" class="btn btn-lg btn-light fw-bold border-white bg-warning"><i class="fas fa-home"></i>Ir a inicio</a>
@@ -96,11 +96,11 @@ include "../PUBLIC/PARTS/header.php";
 
 
 <?php
-            }
-            //Si el valor de admin = 0 entra a la pagina en modo Usuario.
-            if ($admin == 0) {
+                }
+                //Si el valor de admin = 0 entra a la pagina en modo Usuario.
+                if ($admin == 0) {
 
-                echo "<h1 class='m-1 p-1 text-success text-center'>-- Usuario Registrado --</h1>";
+                    echo "<h1 class='m-1 p-1 text-success text-center'>-- Usuario Registrado --</h1>";
 ?>
 
     <div class="container-fluid">
@@ -142,6 +142,8 @@ include "../PUBLIC/PARTS/header.php";
                             }
                         }
                     }
+                }
+
 
                     ?>
                     </tbody>
@@ -153,9 +155,9 @@ include "../PUBLIC/PARTS/header.php";
         </div>
     </div>
     <?php
-    //Si el valor de admin no es ni 0 ó 1 entra a la página como no registrado.
-    if (!isset($_SESSION['admin'])) {
-        echo "<h1 class='m-1 p-1 text-primary text-center'>-- Visitante no Registrado --</h1>";
+                //Si el valor de admin no es ni 0 ó 1 entra a la página como no registrado.
+                if (!isset($_SESSION['admin'])) {
+                    echo "<h1 class='m-1 p-1 text-primary text-center'>-- Visitante no Registrado --</h1>";
     ?>
         <div class="container-fluid mt-5">
             <div class="row justify-content-center align-items-center minh-100 mt-5">
@@ -190,13 +192,12 @@ include "../PUBLIC/PARTS/header.php";
                                             <td class="p-2"><?php echo $datoFila["created_at"]; ?></td>
                                             <td class="p-2"><?php echo $datoFila["updated_at"]; ?></td>
                                         </tr>
-                        <?php
+                    <?php
                                     }
                                 }
                             }
                         }
-                        }
-                        ?>
+                    ?>
                         </tbody>
                     </table>
                     <a href="../index.php" class="btn btn-lg btn-light fw-bold border-white bg-primary"><i class="fas fa-home"></i>Ir a inicio</a>
