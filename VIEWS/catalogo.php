@@ -44,12 +44,15 @@ include "../PUBLIC/PARTS/header.php";
         <div class="col-lg-12 p-5 mt-5">
 
             <?php
-            if (isset($_SESSION['dni'])) {
-                //Si el valor de admin = 1 entra a la pagina en modo admin.
-                if ($admin == 1) {
-                    echo "<h3 class='m-1 p-1 text-warning text-center'>-- Modo Admin --</h3>";
-                }
-            
+       if (isset($_SESSION['dni'])){
+             //Si el valor de admin = 1 entra a la pagina en modo admin.
+     if ($admin == 1) {
+        echo "<h3 class='m-1 p-1 text-warning text-center'>-- Modo Admin --</h3>";
+    }
+       }
+       
+       
+       
 
             ?>
             <h1 class="text-warning">PhotoSOLD.</h1>
@@ -208,6 +211,6 @@ include "../PUBLIC/PARTS/header.php";
 <?php
 
                     }
-                }
+
 ?>
 <?php include "../PUBLIC/PARTS/footer.php"; ?>
