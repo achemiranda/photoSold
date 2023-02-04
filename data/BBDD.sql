@@ -40,7 +40,7 @@ INSERT INTO usuario (dni, nombre ,apellidos, password ,email,admin) VALUES
 INSERT INTO fotografia (nombre,precio,tamanio,imagen,creador) VALUES
 ('paisaje01',1.50,'2160 X 1442','../PUBLIC/images/pexels-jeff-nissen-942255.jpg','Jeff Nissen'),
 ('paisaje02',1.50,'7952 X 5034','../PUBLIC/images/pexels-jeremy-bishop-2923595.jpg','Jeremy Bishop'),
-('paisaje03',1.50,'2500 X 1667','../PUBLIC/images/pexels-luis-del-río-15286.jpg','Luís del Río'),
+('paisaje03',1.50,'2500 X 1667','../PUBLIC/images/pexels-luis-del-rio-15286.jpg','Luis del Rio'),
 ('paisaje04',1.50,'2201 X 1467','../PUBLIC/images/pexels-pixabay-206359.jpg','Pixabay'),
 ('paisaje05',1.50,'20160 X 1442','../PUBLIC/images/pexels-pixabay-209807.jpg','Pixabay'),
 ('paisaje06',1.50,'2000 X 1333','../PUBLIC/images/pexels-pixabay-531602.jpg','Pixabay'),
