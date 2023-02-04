@@ -70,8 +70,10 @@ include "../PUBLIC/PARTS/header.php";
                     <?php
                     //Bucle para mostrar todos los campos de la tabla fotografia en una tabla
                     if ($catalogo && $consultaSQL->rowCount() > 0) {
+
                         foreach ($catalogo as $datoFila) {
                             if ($datoFila['imagen'] != 0) {
+
                     ?>
                                 <tr class="catalogo text-center">
                                     <td class="p-2"><?php echo $datoFila["nombre"]; ?></td>
@@ -142,9 +144,7 @@ include "../PUBLIC/PARTS/header.php";
                                     </tr>
                         <?php
                                 }
-                            }
-                        }
-
+                            
                         ?>
                     </tbody>
                 </table>
@@ -155,6 +155,8 @@ include "../PUBLIC/PARTS/header.php";
         </div>
     </div>
 <?php
+                        }
+                    }
                         //Si el valor de admin no es ni 0 ó 1 entra a la página como no registrado.
                     } elseif (!isset($_SESSION['admin'])) {
                         echo "<h1 class='m-1 p-1 text-primary text-center'>-- Visitante no Registrado --</h1>";
